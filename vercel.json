@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://e-guest-book-pjt-semarang-demak.vercel.app/:path*"
+    }
+  ]
+}
