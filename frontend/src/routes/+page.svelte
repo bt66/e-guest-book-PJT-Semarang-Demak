@@ -123,7 +123,7 @@
     
         <!-- Camera Capture Section -->
         <div class="mb-5">
-            <label for="foto" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Foto</label>
+            <label for="foto" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Swafoto</label>
             <input type="file" accept="image/*" capture="user" on:change={handleFileSelect} bind:this={fileInput} class="hidden" id="foto" />
             <button type="button" on:click={triggerCamera} class="text-white bg-gray-700 hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800 mb-2">
                 Ambil Gambar
