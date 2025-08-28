@@ -71,7 +71,7 @@
 		formData.append('foto', imageFile); // 'foto' must match multer field name on the backend
 
 		try {
-			const response = await fetch('/submit-guest', {
+			const response = await fetch('/api/submit-guest', {
 				method: 'POST',
 				body: formData
 			});
